@@ -15,7 +15,6 @@ fun main() {
 fun sort(arr: IntArray) {
 	val n = arr.size
 	println()
-	println()
 	println("Making heap")
 	for (i in n / 2 - 1 downTo 0) {
 		heapify(arr, n, i)
